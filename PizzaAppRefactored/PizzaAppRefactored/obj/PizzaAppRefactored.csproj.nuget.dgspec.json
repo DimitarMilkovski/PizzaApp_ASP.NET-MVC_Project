@@ -1,0 +1,504 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored\\PizzaAppRefactored.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.DataAccess\\PizzaAppRefactored.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.DataAccess\\PizzaAppRefactored.DataAccess.csproj",
+        "projectName": "PizzaAppRefactored.DataAccess",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.DataAccess\\PizzaAppRefactored.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj",
+        "projectName": "PizzaAppRefactored.Domain",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Helpers\\PizzaAppRefactored.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Helpers\\PizzaAppRefactored.Helpers.csproj",
+        "projectName": "PizzaAppRefactored.Helpers",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Helpers\\PizzaAppRefactored.Helpers.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Mappers\\PizzaAppRefactored.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Mappers\\PizzaAppRefactored.Mappers.csproj",
+        "projectName": "PizzaAppRefactored.Mappers",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Mappers\\PizzaAppRefactored.Mappers.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj"
+              },
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj",
+        "projectName": "PizzaAppRefactored.Services",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.DataAccess\\PizzaAppRefactored.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.DataAccess\\PizzaAppRefactored.DataAccess.csproj"
+              },
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Mappers\\PizzaAppRefactored.Mappers.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Mappers\\PizzaAppRefactored.Mappers.csproj"
+              },
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj",
+        "projectName": "PizzaAppRefactored.ViewModels",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\PizzaAppRefactored.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Domain\\PizzaAppRefactored.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored\\PizzaAppRefactored.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored\\PizzaAppRefactored.csproj",
+        "projectName": "PizzaAppRefactored",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored\\PizzaAppRefactored.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Helpers\\PizzaAppRefactored.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Helpers\\PizzaAppRefactored.Helpers.csproj"
+              },
+              "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\MVC Repo\\mkwd11-net-08-aspnetmvc\\G5\\Class 10\\PizzaAppRefactored\\PizzaAppRefactored.Services\\PizzaAppRefactored.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
